@@ -1,0 +1,16 @@
+# 1 - Square root benchmarking
+  - Measuring & comparing the performance and precision of multiple implementations of sqrt and rsqrt on x86
+
+  C:
+    - 64-bit precision (double)
+    - 80-bit precision (long double)
+    - 1000-bit precision (GMP)
+
+  FORTRAN:
+    - 64-bit precision (real)
+    - 80-bit precision (long double)
+
+NOTES: Suprisingly, FORTRAN is off compared to the C reference values. 
+
+
+    
